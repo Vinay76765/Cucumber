@@ -9,13 +9,13 @@ import io.cucumber.java.BeforeStep;
 
 public class Hooks {
 	
-	@Before
+	@Before("@Prod")
 	public void Setup()
 	{
 		System.out.println("Launching browser");
 	}
 	
-	@After
+	@After("@Prod")
 	public void teardown()
 	{
 		System.out.println("Quit Browser");

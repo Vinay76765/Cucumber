@@ -1,0 +1,26 @@
+prep 24-04-2024
+
+154. Cucumber hooks- tagged hooks
+
+-->we can add tags to hooks with respect to the tags given in feature file
+--> so that the tagged hooks will be called when particular features are called.
+
+
+155. DataTable as a List
+
+here each step contains data, that can be accessed using list.
+List<List<String>> data = dataTable.asLists();
+--> then use instance to utilize the methods of asLists to get the data.
+
+
+156. Datatable as MAP
+
+here each step contains data, that can be accessed using map.
+List<Map<String, String>> map = dataTable.asMaps();
+--> then use instance to utilize the methods of asmaps to get the data.
+
+
+157. Parametrizing the datatable as MAP
+	
+map and list are used when one step contains many inputs.
+
