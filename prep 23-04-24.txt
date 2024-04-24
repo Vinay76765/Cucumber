@@ -1,0 +1,44 @@
+prep 23-04-24
+
+147. parametrizing using scenario outline
+
+parametrizing test feature file with examples
+
+148. Adding multiple features and step definitions
+
+created multiple feature file and multiple runner file to run for different feature file.
+
+
+149. Background
+
+added background step for particular feature file and ran runner file
+
+150. Cucumber tags
+
+we can add cucumber tags on feature file and scenario also
+we can run single or multiple tags feature file
+and we can not include particular test case with not @tag name in runner file
+
+
+151. Cucumber hooks
+
+@Before and @After, to launch and close the browser.
+
+
+152. Cucumber hooks - before all, afterall, beforestep, afterstep
+
+before all hook methods must be static only
+before --> this will execute at start of the scenario
+After --> this will execute at the end of scenario
+beforeall --> this will execute before start of the test
+afterall --> this will execute after end of the test
+beforestep --> this will execute before every step in scenario
+afterstep --> this will execute after every step in scenario
+
+
+153. cucumber hooks -- defining execution order
+
+we can set order for execution of the hooks,
+--> this is done to prioratize the methods to run
+
+ 
